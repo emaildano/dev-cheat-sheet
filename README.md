@@ -16,4 +16,14 @@
 ### Tiger v10.4.x and later
 `defaults write com.apple.desktopservices DSDontWriteNetworkStores true`
 
+## Tar
+
+### Creating a Tar Archive
+
+ex. `tar -zcvf file.tar.gz folder`
+
+- z = Zip the archive
+- c = Create new archive
+- v = Verbose, meaning show me the processes
+- f = file name to be created
 
