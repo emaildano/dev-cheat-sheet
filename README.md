@@ -34,4 +34,4 @@
 
 ### Create Tar.gz of all folders within current directory
 
-`for dir in */; do   base=$(basename "$dir");   tar -czf "${base}.tar.gz" "$dir"; done && `
+`for dir in */; do   base=$(basename "$dir");   tar -czf "${base}.tar.gz" "$dir"; done`
