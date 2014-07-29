@@ -1,11 +1,17 @@
 # Flush DNS
 
-## Mavericks 10.9.x
+## Mavericks v10.9.x
 `dscacheutil -flushcache; sudo killall -HUP mDNSResponder`
 
-## Mountian Lion 10.8.x or Lion 10.7.x
+## Mountian Lion v10.8.x or Lion v10.7.x
 `sudo killall -HUP mDNSResponder`
 
-## Snow Leopard 10.6.x or 10.5.x Leopard
+## Snow Leopard v10.6.x or v10.5.x Leopard
 `dscacheutil -flushcache`
+
+# Stop .DS_Store
+
+## Tiger v10.4.x and later
+`defaults write com.apple.desktopservices DSDontWriteNetworkStores true`
+
 
