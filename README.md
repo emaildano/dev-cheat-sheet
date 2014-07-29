@@ -22,10 +22,10 @@
 
 `tar -zcvf file.tar.gz folder`
 
-- z = Zip the archive
-- c = Create new archive
-- v = Verbose, meaning show me the processes
-- f = file name to be created
+> z = Zip the archive
+> c = Create new archive
+> v = Verbose, meaning show me the processes
+> f = file name to be created
 
 ### Uncompressing multiple tar.gz files from one directory to another
 > Destination folder must already exist <br>
