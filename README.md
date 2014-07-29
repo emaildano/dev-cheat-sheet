@@ -31,3 +31,7 @@
 
 `for i in *.tar.gz; do tar xvzf $i -C ../folder; done`
 > Destination folder must already exist
+
+### Create Tar.gz of all folders within current directory
+
+`for dir in */; do   base=$(basename "$dir");   tar -czf "${base}.tar.gz" "$dir"; done && `
