@@ -18,12 +18,15 @@
 
 ## Tar
 
-### Creating a Tar Archive
+### Creating a Tar.gz Archive
 
-ex. `tar -zcvf file.tar.gz folder`
+`tar -zcvf file.tar.gz folder`
 
 - z = Zip the archive
 - c = Create new archive
 - v = Verbose, meaning show me the processes
 - f = file name to be created
 
+### Uncompressing multiple tar.gz files from one directory to another
+* Destination folder must already exist
+`for i in *.tar.gz; do tar xvzf $i -C ../folder; done`
