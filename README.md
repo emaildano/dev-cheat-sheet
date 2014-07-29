@@ -28,6 +28,6 @@
 > f = file name to be created <br>
 
 ### Uncompressing multiple tar.gz files from one directory to another
-> Destination folder must already exist <br>
 
 `for i in *.tar.gz; do tar xvzf $i -C ../folder; done`
+> Destination folder must already exist
