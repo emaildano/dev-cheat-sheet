@@ -11,7 +11,7 @@
 
 # Stop .DS_Store
 
-## Tiger v10.4.x and later
+### Tiger v10.4.x and later
 `defaults write com.apple.desktopservices DSDontWriteNetworkStores true`
 
 
