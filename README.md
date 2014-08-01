@@ -35,3 +35,7 @@
 ### Create Tar.gz of all folders within current directory
 
 `for dir in */; do   base=$(basename "$dir");   tar -czf "${base}.tar.gz" "$dir"; done`
+
+## Rename
+`rename 's/.m4v$/.mp4/' *.m4v`
+> Run to rename all `.m4v` extensions to `.mp4`
