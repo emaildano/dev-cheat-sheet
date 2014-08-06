@@ -42,3 +42,8 @@
 
 `rename 's/.m4v$/.mp4/' *.m4v`
 > Run to rename all `.m4v` extensions to `.mp4`
+
+## Composer
+
+### Clear Composer cache
+`rm -rf ~/.composer/cache`
