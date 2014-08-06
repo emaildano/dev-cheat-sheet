@@ -49,4 +49,4 @@
 `rm -rf ~/.composer/cache`
 
 ## Creating Symbolic Links
-ln -s /path/to/original /path/to/symlink
+`ln -s /path/to/original /path/to/symlink`
