@@ -50,3 +50,11 @@
 
 ## Creating Symbolic Links
 `ln -s /path/to/original /path/to/symlink`
+
+## Git
+
+### Clear Git Cache
+- `git rm -r --cached .`
+- `git add .`
+- `git commit -m ".gitignore is now working"`
+
