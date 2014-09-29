@@ -2,6 +2,9 @@
 
 ## Flush DNS
 
+### Yosemite v10.10.x
+`dscacheutil -flushcache`
+
 ### Mavericks v10.9.x
 `dscacheutil -flushcache; sudo killall -HUP mDNSResponder`
 
