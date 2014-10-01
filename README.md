@@ -22,6 +22,20 @@
 #### Snow Leopard v10.6.x or v10.5.x Leopard
 `dscacheutil -flushcache`
 
+## Zip
+
+### Compress
+
+`zip -r archive_name.zip folder_to_compress`
+
+### Compress without _MACOSX
+
+`zip -r -X archive_name.zip folder_to_compress`
+
+### Uncompress
+
+`unzip archive_name.zip`
+
 ## Tar
 
 ### Creating a Tar.gz Archive
