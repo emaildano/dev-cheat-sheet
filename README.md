@@ -40,12 +40,20 @@
 
 ### Creating a Tar.gz Archive
 
-`tar -zcvf file.tar.gz folder`
+`tar -zcvf example.tar.gz folder_to_compress`
 
 > z = Zip the archive <br>
 > c = Create new archive <br>
 > v = Verbose, meaning show me the processes <br>
 > f = file name to be created <br>
+
+### Un-tar to current directory
+
+`tar -zxvf example.tar.gz`
+
+### Un-tar to a different directory
+
+`tar -C /folder -zxvf example.tar.gz`
 
 ### Uncompressing multiple tar.gz files from one directory to another
 
