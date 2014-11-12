@@ -56,6 +56,20 @@
 
 `for dir in */; do   base=$(basename "$dir");   tar -czf "${base}.tar.gz" "$dir"; done`
 
+## Linux Disk Usage Info
+
+### Get size of each folder in current directory
+
+`du -sh */`
+
+### Get size of specific folder
+
+`du -sh example/`
+
+### Get size of specific file
+
+`du -sh example.mp4`
+
 ## Rename
 
 ### Renaming file extensions
