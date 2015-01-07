@@ -105,3 +105,8 @@
 ### Export Database
 `mysqldump -p -u username database_name > export_name.sql`
 
+## Apache
+
+### List Virtual Hosts
+`httpd -S`
+
