@@ -100,3 +100,8 @@
 - `git add .`
 - `git commit -m ".gitignore is now working"`
 
+## MySQL Commands
+
+### Export Database
+`mysqldump -p -u username database_name > export_name.sql`
+
