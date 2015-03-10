@@ -103,7 +103,7 @@
 ## MySQL Commands
 
 ### Export Database
-`mysqldump -p -u username database_name > export_name.sql`
+`mysqldump database_name > database_name.sql`
 
 ### Export All DBs
 `mysqldump --all-databases > all_dbs.sql`
