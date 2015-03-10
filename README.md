@@ -105,6 +105,9 @@
 ### Export Database
 `mysqldump -p -u username database_name > export_name.sql`
 
+### Export All DBs
+`mysqldump --all-databases > all_dbs.sql`
+
 ## Apache
 
 ### List Virtual Hosts
