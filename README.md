@@ -117,4 +117,8 @@
 
 #### Move folder from ec2 to s3
 
-`aws s3 cp folder s3://mybucket/folder --recursive`
+`aws s3 cp folder s3://bucket/folder/ --recursive`
+
+#### Move file from ec2 to s3
+
+`aws s3 cp file.tar.gz s3://bucket/folder/` <-- note the forward slash
