@@ -113,7 +113,7 @@
 #### List Virtual Hosts
 `httpd -S`
 
-## AWS Cli
+## AWS CLI
 
 #### Move folder from ec2 to s3
 
