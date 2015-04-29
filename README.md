@@ -115,7 +115,7 @@
 
 ## AWS CLI
 
-#### Move folder from ec2 to s3
+#### Move folder contents from ec2 to s3
 
 `aws s3 cp folder s3://bucket/folder/ --recursive`
 
