@@ -64,6 +64,12 @@
 
 `for dir in */; do   base=$(basename "$dir");   tar -czf "${base}.tar.gz" "$dir"; done`
 
+## Linux Search and Replace
+
+### Search and Replace with Sed
+
+`find . -type f -print -exec sed -i 's/old/new/g' {} \;`
+
 ## Linux Disk Usage Info
 
 #### Get size of each folder in current directory
