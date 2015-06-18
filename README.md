@@ -97,11 +97,11 @@
 `rm -rf ~/.composer/cache`
 
 #### Install Composer on Shared Hosting
-##### Tested on 1and1.com via SSH
+##### 1and1
 1. Make Composer Directory and Move There `mkdir ~/composer && cd ~/composer`
 2. Download Composer `curl -sS https://getcomposer.org/installer | /usr/bin/php5.5-cli`
-3. Start Composer `/usr/bin/php5.5-cli composer.phar`
-4. Run Commands! `/usr/bin/php5.5-cli ~/composer/composer.phar install`
+3. Create Alias to Run Composer `alias composer='/usr/bin/php5.5-cli ~/composer/composer.phar'`
+4. Enjoy! `composer` should now run from any directory
 
 ## Creating Symbolic Links
 `ln -s /path/to/original /path/to/symlink`
