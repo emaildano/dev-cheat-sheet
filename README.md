@@ -1,5 +1,11 @@
 # Developer Cheat Sheet
 
+## Premissions
+
+#### NPM/ Node.js Premissions Errors (EACCES)
+##### Set owner to current user
+`sudo chown -R $(whoami) ~/.npm /usr/local/lib/node_modules`
+
 ## DNS
 
 #### Map IP Address
