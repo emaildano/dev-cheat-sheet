@@ -109,6 +109,12 @@
 3. Create Alias to Run Composer `alias composer='/usr/bin/php5.5-cli ~/.composer/composer.phar'`
 4. Enjoy! `composer` should now run from any directory
 
+##### GoDaddy
+1. Make Composer Directory and Move There `mkdir ~/.composer && cd ~/.composer`
+2. Download Composer `php -r "readfile('https://getcomposer.org/installer');" | php5`
+3. Add alias `echo "alias composer='php ~/.composer/composer.phar'" > ~/.bash_profile`
+4. Load profile `source ~/.bash_profile`
+
 ## Creating Symbolic Links
 `ln -s /path/to/original /path/to/symlink`
 
