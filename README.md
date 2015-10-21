@@ -125,7 +125,22 @@
 - `git add .`
 - `git commit -m ".gitignore is now working"`
 
-## MySQL Commands
+## Common MySQL Commands
+
+#### Login as user with password
+`mysql -u 'username' -p`
+
+#### Create Database
+`CREATE DATABASE 'databasename';`
+
+#### Use Database
+`USE DATABASE databasename';`
+
+## Import Databse Dump to Existing Database
+`mysql -u 'username' -p -h 'host' 'database' < 'path/to/database.sql'`
+
+#### Show Current MySQL Info
+STATUS;
 
 #### Export Database
 `mysqldump database_name > database_name.sql`
