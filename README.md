@@ -128,16 +128,16 @@
 ## Common MySQL Commands
 
 #### Login as user with password
-`mysql -u 'username' -p`
+`mysql -u username -p`
 
 #### Create Database
-`CREATE DATABASE 'databasename';`
+`CREATE DATABASE databasename;`
 
 #### Use Database
-`USE DATABASE databasename';`
+`USE DATABASE databasename;`
 
 ## Import Databse Dump to Existing Database
-`mysql -u 'username' -p -h 'host' 'database' < 'path/to/database.sql'`
+`mysql -u username -p -h host database < path/to/database.sql`
 
 #### Show Current MySQL Info
 `STATUS;`
@@ -162,3 +162,8 @@
 #### Move file from ec2 to s3
 
 `aws s3 cp file.tar.gz s3://bucket/folder/` <-- note the forward slash
+
+## SCP
+
+#### Upload file via SSH
+`scp /path/to/file username@a:/path/to/destination`
