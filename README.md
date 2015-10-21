@@ -140,7 +140,7 @@
 `mysql -u 'username' -p -h 'host' 'database' < 'path/to/database.sql'`
 
 #### Show Current MySQL Info
-STATUS;
+`STATUS;`
 
 #### Export Database
 `mysqldump database_name > database_name.sql`
