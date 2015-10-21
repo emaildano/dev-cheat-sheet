@@ -137,16 +137,16 @@
 `USE DATABASE databasename;`
 
 ## Import Databse Dump to Existing Database
-`mysql -u username -p -h host database < path/to/database.sql`
+`mysql -u username -p -h host database < path/to/import.sql`
 
 #### Show Current MySQL Info
 `STATUS;`
 
 #### Export Database
-`mysqldump database_name > database_name.sql`
+`mysqldump database_name > path/to/export.sql`
 
 #### Export All DBs
-`mysqldump --all-databases > all_dbs.sql`
+`mysqldump --all-databases > path/to/export.sql`
 
 ## Apache
 
