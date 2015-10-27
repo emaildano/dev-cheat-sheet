@@ -148,6 +148,17 @@
 #### Export All DBs
 `mysqldump --all-databases > path/to/export.sql`
 
+## WordPress MySQL Commands
+
+#### Remove orphaned wp_postmeta from delete wp_posts
+
+```
+DELETE pm
+FROM wp_postmeta pm
+LEFT JOIN wp_posts wp ON wp.ID = pm.post_id
+WHERE wp.ID IS NULL
+```
+
 ## Apache
 
 #### List Virtual Hosts
