@@ -178,3 +178,9 @@ WHERE wp.ID IS NULL
 
 #### Upload file via SSH
 `scp /path/to/file username@a:/path/to/destination`
+
+## SSH
+
+#### Adding local SSH key to remote server
+
+`cat ~/.ssh/id_rsa.pub | ssh user@hostname 'cat >> .ssh/authorized_keys'`
