@@ -214,3 +214,11 @@ WHERE wp.ID IS NULL
 #### List All Users
 
 `cut -d : -f 1 /etc/passwd`
+
+#### List All Groups
+
+`cut -d : -f 1 /etc/group`
+
+#### List All Users in Group
+
+`grep 'groupname' /etc/group`
