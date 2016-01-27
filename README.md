@@ -210,3 +210,7 @@ WHERE wp.ID IS NULL
 #### Create User Without Home Directory or Group
 
 `useradd -M -N newuser`
+
+#### List All Users
+
+`cut -d : -f 1 /etc/passwd`
