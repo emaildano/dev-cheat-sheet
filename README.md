@@ -184,3 +184,29 @@ WHERE wp.ID IS NULL
 #### Adding local SSH key to remote server
 
 `cat ~/.ssh/id_rsa.pub | ssh user@hostname 'cat >> .ssh/authorized_keys'`
+
+## Managing Users
+
+#### Create New User
+
+`adduser newuser`
+
+#### Delete User
+
+`deluser newuser`
+
+#### Delete User & Home Directory
+
+`deluser --remove-home newuser`
+
+#### Create User Without Group
+
+`adduser -N newuser`
+
+#### Create User Without Home Directory
+
+`useradd -M newuser`
+
+#### Create User Without Home Directory or Group
+
+`useradd -M -N newuser`
