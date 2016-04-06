@@ -229,3 +229,7 @@ WHERE wp.ID IS NULL
 #### List All Users in Group
 
 `grep 'groupname' /etc/group`
+
+## Credits
+
+[Thank you to all the people who I owe most of these random snippets.](CREDITS.md)
