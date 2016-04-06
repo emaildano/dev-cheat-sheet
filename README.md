@@ -122,6 +122,10 @@
 3. Add alias to ~/.profile `alias composer="php -d memory_limit=512M -d allow_url_fopen=1 -d suhosin.executor.include.whitelist=phar ~/.bin/composer/composer.phar"`
 4. Load profile `source ~/.profile`
 
+##### Resolving `open_basedir` issues with Composer on MediaTemple GS
+1. [Create php.ini](https://mediatemple.net/community/products/grid/204403894/how-can-i-edit-the-php.ini-file) if it doesn't already exist.
+2. Add `open_basedir = /home/:/nfs/:/etc/`
+
 ## Creating Symbolic Links
 `ln -s /path/to/original /path/to/symlink`
 
