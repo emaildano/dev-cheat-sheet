@@ -103,17 +103,24 @@
 `rm -rf ~/.composer/cache`
 
 #### Install Composer on Shared Hosting
+
 ##### 1and1
-1. Make Composer Directory and Move There `mkdir ~/.composer && cd ~/.composer`
+1. Make Composer Directory and Move There `mkdir -p ~/.bin/composer && cd ~/.bin/composer`
 2. Download Composer `curl -sS https://getcomposer.org/installer | /usr/bin/php5.5-cli`
 3. Create Alias to Run Composer `alias composer='/usr/bin/php5.5-cli ~/.composer/composer.phar'`
 4. Enjoy! `composer` should now run from any directory
 
 ##### GoDaddy
-1. Make Composer Directory and Move There `mkdir ~/.composer && cd ~/.composer`
+1. Make Composer Directory and Move There `mkdir -p ~/.bin/composer && cd ~/.bin/composer`
 2. Download Composer `php -r "readfile('https://getcomposer.org/installer');" | php5`
-3. Add alias `echo "alias composer='php ~/.composer/composer.phar'" > ~/.bash_profile`
+3. Add alias `echo "alias composer='php ~/.bin/composer/composer.phar'" > ~/.bash_profile`
 4. Load profile `source ~/.bash_profile`
+
+##### MediaTemple Grid (GS)
+1. Make Composer Directory and Move There `mkdir -p ~/.bin/composer && cd ~/.bin/composer`
+2. Install Composer `curl -s https://getcomposer.org/installer | php -d allow_url_fopen=1 -d suhosin.executor.include.whitelist=phar`
+3. Add alias to ~/.profile `alias composer="php -d memory_limit=512M -d allow_url_fopen=1 -d suhosin.executor.include.whitelist=phar ~/.bin/composer/composer.phar"`
+4. Load profile `source ~/.profile`
 
 ## Creating Symbolic Links
 `ln -s /path/to/original /path/to/symlink`
