@@ -107,7 +107,7 @@
 ##### 1and1
 1. Make Composer Directory and Move There `mkdir -p ~/.bin/composer && cd ~/.bin/composer`
 2. Download Composer `curl -sS https://getcomposer.org/installer | /usr/bin/php5.5-cli`
-3. Create Alias to Run Composer `alias composer='/usr/bin/php5.5-cli ~/.composer/composer.phar'`
+3. Create Alias to Run Composer `alias composer='/usr/bin/php5.5-cli ~/.bin/composer/composer.phar'`
 4. Enjoy! `composer` should now run from any directory
 
 ##### GoDaddy
